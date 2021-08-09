@@ -1,0 +1,69 @@
+2021-08-05 00:17:25,835 ERROR 15508 [-/127.0.0.1/-/32ms POST /goods] nodejs.ReferenceError: data is not defined
+    at GoodsController.create (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:37:25)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\koa-static-cache\index.js:39:63
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15508
+hostname: DESKTOP-86SHMDP
+
+2021-08-05 00:18:58,725 ERROR 12992 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12992
+hostname: DESKTOP-86SHMDP
+
+2021-08-05 11:59:07,523 ERROR 12992 nodejs.ClusterClientNoResponseError: client no response in 36628639ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Spana\Desktop\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 12992
+hostname: DESKTOP-86SHMDP
+
+2021-08-05 19:32:54,747 ERROR 12992 nodejs.ClusterClientNoResponseError: client no response in 25147167ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Spana\Desktop\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 12992
+hostname: DESKTOP-86SHMDP
+
+2021-08-05 22:38:50,899 ERROR 12992 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12992
+hostname: DESKTOP-86SHMDP
+
+2021-08-05 23:19:35,706 ERROR 12992 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:178:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "C:\\Users\\Spana\\Desktop\\egg-demo\\app\\public"
+name: "EPERMError"
+pid: 12992
+hostname: DESKTOP-86SHMDP
+
+2021-08-05 23:45:23,806 ERROR 12992 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12992
+hostname: DESKTOP-86SHMDP
+

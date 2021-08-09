@@ -1,0 +1,11 @@
+2021-08-06 00:00:00,389 INFO 3124 [egg-logrotator] app logger reload: got log-reload message
+2021-08-06 09:20:13,502 WARN 3124 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-08-06 09:20:15,035 INFO 3124 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\Spana\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo"
+2021-08-06 09:20:15,041 INFO 3124 [-/127.0.0.1/-/7ms SCHEDULE /__schedule?path=C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-08-06 12:07:04,503 WARN 3124 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-08-06 12:07:04,518 WARN 3124 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-08-06 21:24:08,761 WARN 3124 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-08-06 21:24:08,762 WARN 3124 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-08-06 23:59:59,074 INFO 3124 [egg-logrotator] clean all log before 31 days
+2021-08-07 00:00:00,077 INFO 3124 [egg-logrotator] broadcast log-reload
+2021-08-07 00:00:00,077 INFO 3124 [egg-logrotator] rotate files success by DayRotator, files ["C:\\Users\\Spana\\Desktop\\egg-demo\\logs\\demo\\common-error.log -> C:\\Users\\Spana\\Desktop\\egg-demo\\logs\\demo\\common-error.log.2021-08-06","C:\\Users\\Spana\\Desktop\\egg-demo\\logs\\demo\\demo-web.log -> C:\\Users\\Spana\\Desktop\\egg-demo\\logs\\demo\\demo-web.log.2021-08-06","C:\\Users\\Spana\\Desktop\\egg-demo\\logs\\demo\\egg-web.log -> C:\\Users\\Spana\\Desktop\\egg-demo\\logs\\demo\\egg-web.log.2021-08-06","C:\\Users\\Spana\\Desktop\\egg-demo\\logs\\demo\\egg-schedule.log -> C:\\Users\\Spana\\Desktop\\egg-demo\\logs\\demo\\egg-schedule.log.2021-08-06","C:\\Users\\Spana\\Desktop\\egg-demo\\logs\\demo\\egg-agent.log -> C:\\Users\\Spana\\Desktop\\egg-demo\\logs\\demo\\egg-agent.log.2021-08-06"]

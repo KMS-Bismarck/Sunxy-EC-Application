@@ -1,0 +1,28 @@
+2021-07-27 00:31:39,628 ERROR 15580 [-/127.0.0.1/-/5ms POST /auth/login] nodejs.TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Gzip
+    at Gzip.Writable.write (internal/streams/writable.js:285:13)
+    at Gzip.Writable.end (internal/streams/writable.js:567:10)
+    at gzip (C:\Users\Spana\Desktop\egg-demo\app\middleware\gzip.js:20:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+code: "ERR_INVALID_ARG_TYPE"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15580
+hostname: DESKTOP-86SHMDP
+
+2021-08-04 23:33:14,761 INFO 1164 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-08-04 23:35:21,186 INFO 3620 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-08-04 23:35:21,215 INFO 3620 [egg-sequelize](30ms) Executed (default): CREATE TABLE IF NOT EXISTS `clazzs` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2021-08-04 23:35:21,222 INFO 3620 [egg-sequelize](6ms) Executed (default): SHOW INDEX FROM `clazzs` FROM `demo`
+2021-08-04 23:38:29,989 INFO 9016 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-08-04 23:38:29,990 INFO 9016 [egg-sequelize](2ms) Executed (default): CREATE TABLE IF NOT EXISTS `clazzs` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2021-08-04 23:38:29,995 INFO 9016 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `clazzs` FROM `demo`
+2021-08-04 23:41:33,487 INFO 8460 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-08-04 23:41:33,488 INFO 8460 [egg-sequelize](2ms) Executed (default): CREATE TABLE IF NOT EXISTS `clazzs` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2021-08-04 23:41:33,493 INFO 8460 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `clazzs` FROM `demo`
+2021-08-04 23:41:33,518 INFO 8460 [egg-sequelize](24ms) Executed (default): CREATE TABLE IF NOT EXISTS `goods` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `code` VARCHAR(255), `type` VARCHAR(255), `label` VARCHAR(255), `status` VARCHAR(255), `sales_category` VARCHAR(255), `goods_category` VARCHAR(255), `main_image` VARCHAR(255), `description` VARCHAR(255), `created_time` VARCHAR(255), `updated_time` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2021-08-04 23:41:33,523 INFO 8460 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `goods` FROM `demo`

@@ -1,0 +1,294 @@
+{
+  "keys": "C:\\Users\\Spana\\Desktop\\egg-demo\\config\\config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "C:\\Users\\Spana\\Desktop\\egg-demo\\config\\config.default.js",
+      "type": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "view": {
+    "defaultViewEngine": "C:\\Users\\Spana\\Desktop\\egg-demo\\config\\config.default.js",
+    "root": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "cors": {
+    "origin": "C:\\Users\\Spana\\Desktop\\egg-demo\\config\\config.default.js",
+    "allowMethods": "C:\\Users\\Spana\\Desktop\\egg-demo\\config\\config.default.js"
+  },
+  "sequelize": {
+    "dialect": "C:\\Users\\Spana\\Desktop\\egg-demo\\config\\config.default.js",
+    "database": "C:\\Users\\Spana\\Desktop\\egg-demo\\config\\config.default.js",
+    "host": "C:\\Users\\Spana\\Desktop\\egg-demo\\config\\config.default.js",
+    "port": "C:\\Users\\Spana\\Desktop\\egg-demo\\config\\config.default.js",
+    "username": "C:\\Users\\Spana\\Desktop\\egg-demo\\config\\config.default.js",
+    "password": "C:\\Users\\Spana\\Desktop\\egg-demo\\config\\config.default.js",
+    "timezone": "C:\\Users\\Spana\\Desktop\\egg-demo\\config\\config.default.js"
+  },
+  "middleware": "C:\\Users\\Spana\\Desktop\\egg-demo\\config\\config.default.js",
+  "session": {
+    "maxAge": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\_egg-view-nunjucks@2.3.0@egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\_egg-view-nunjucks@2.3.0@egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\_egg-view-nunjucks@2.3.0@egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\_egg-view-nunjucks@2.3.0@egg-view-nunjucks\\config\\config.default.js",
+    "cache": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\_egg-view-nunjucks@2.3.0@egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "name": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "version": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "description": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "main": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "test": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "dev": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "license": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "egg-sequelize": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "mysql2": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "strict": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "depth": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "env": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "level": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "logging": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "port": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "C:\\Users\\Spana\\Desktop\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+}

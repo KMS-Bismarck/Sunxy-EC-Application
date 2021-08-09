@@ -1,0 +1,498 @@
+2021-08-07 00:27:53,566 ERROR 20012 [-/127.0.0.1/-/4ms GET /goods] nodejs.ReferenceError: Cannot access 'goodsList' before initialization
+    at GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:7:25)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 20012
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 01:46:19,961 ERROR 7552 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7552
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 01:49:52,510 ERROR 8804 [-/127.0.0.1/-/4ms GET /goods] nodejs.TypeError: Cannot read property 'getGoodsList' of undefined
+    at GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:7:48)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 8804
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 01:50:24,383 ERROR 17244 [-/127.0.0.1/-/4ms GET /goods] nodejs.TypeError: Cannot read property 'Goods' of undefined
+    at GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:7:48)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 17244
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 01:50:31,910 ERROR 13460 [-/127.0.0.1/-/4ms GET /goods] nodejs.TypeError: Cannot read property 'goods' of undefined
+    at GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:7:48)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 13460
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 01:52:53,989 ERROR 18624 [-/127.0.0.1/-/5ms GET /goods] nodejs.TypeError: Cannot read property 'getGoodsList' of undefined
+    at GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:8:54)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 18624
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 01:57:32,392 ERROR 18540 [-/127.0.0.1/-/3ms GET /goods?page=1&size=50] nodejs.TypeError: Cannot read property 'page' of undefined
+    at GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:8:13)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 18540
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 02:06:00,826 ERROR 9048 [-/127.0.0.1/-/11ms GET /goods?page=1&size=2] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 1
+    at Query.formatError (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:2085:27)
+    at async GoodsService.getGoodsList (C:\Users\Spana\Desktop\egg-demo\app\service\goods.js:6:27)
+    at async GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:11:25)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT 0, '2';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT 0, '2';"}
+sql: "SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT 0, '2';"
+parameters: undefined
+pid: 9048
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 02:06:44,190 ERROR 3888 [-/127.0.0.1/-/10ms GET /goods?page=1&size=2] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 1
+    at Query.formatError (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:2085:27)
+    at async GoodsService.getGoodsList (C:\Users\Spana\Desktop\egg-demo\app\service\goods.js:6:27)
+    at async GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:11:25)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT 0, '2';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT 0, '2';"}
+sql: "SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT 0, '2';"
+parameters: undefined
+pid: 3888
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 02:06:49,744 ERROR 3888 [-/127.0.0.1/-/3ms GET /goods?page=0&size=2] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2, '2'' at line 1
+    at Query.formatError (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:2085:27)
+    at async GoodsService.getGoodsList (C:\Users\Spana\Desktop\egg-demo\app\service\goods.js:6:27)
+    at async GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:11:25)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2, '2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT -2, '2';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2, '2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT -2, '2';"}
+sql: "SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT -2, '2';"
+parameters: undefined
+pid: 3888
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 02:07:51,213 ERROR 18652 [-/127.0.0.1/-/9ms GET /goods?page=0&size=2] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '2'' at line 1
+    at Query.formatError (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:2085:27)
+    at async GoodsService.getGoodsList (C:\Users\Spana\Desktop\egg-demo\app\service\goods.js:6:27)
+    at async GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:11:25)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '0', '2';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '0', '2';"}
+sql: "SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '0', '2';"
+parameters: undefined
+pid: 18652
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 02:08:05,934 ERROR 9292 [-/127.0.0.1/-/11ms GET /goods?page=0&size=2] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '2'' at line 1
+    at Query.formatError (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:2085:27)
+    at async GoodsService.getGoodsList (C:\Users\Spana\Desktop\egg-demo\app\service\goods.js:6:27)
+    at async GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:11:25)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '0', '2';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '0', '2';"}
+sql: "SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '0', '2';"
+parameters: undefined
+pid: 9292
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 02:09:12,718 ERROR 3760 [-/127.0.0.1/-/14ms GET /goods?page=0&size=2] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '2'' at line 1
+    at Query.formatError (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:2085:27)
+    at async GoodsService.getGoodsList (C:\Users\Spana\Desktop\egg-demo\app\service\goods.js:6:27)
+    at async GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:11:25)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '0', '2';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '0', '2';"}
+sql: "SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '0', '2';"
+parameters: undefined
+pid: 3760
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 02:09:20,119 ERROR 3760 [-/127.0.0.1/-/3ms GET /goods?page=0&size=2] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '2'' at line 1
+    at Query.formatError (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:2085:27)
+    at async GoodsService.getGoodsList (C:\Users\Spana\Desktop\egg-demo\app\service\goods.js:6:27)
+    at async GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:11:25)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '0', '2';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '2'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '0', '2';"}
+sql: "SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '0', '2';"
+parameters: undefined
+pid: 3760
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 02:10:05,514 ERROR 3760 [-/127.0.0.1/-/5ms GET /goods?page=1&size=1] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1', '1'' at line 1
+    at Query.formatError (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:2085:27)
+    at async GoodsService.getGoodsList (C:\Users\Spana\Desktop\egg-demo\app\service\goods.js:6:27)
+    at async GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:11:25)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1', '1'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '1', '1';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1', '1'' at line 1","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '1', '1';"}
+sql: "SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT '1', '1';"
+parameters: undefined
+pid: 3760
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 02:18:15,015 ERROR 20120 [-/127.0.0.1/-/15ms GET /goods?page=0&size=] nodejs.SequelizeDatabaseError: Undeclared variable: NaN
+    at Query.formatError (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (C:\Users\Spana\Desktop\egg-demo\node_modules\_sequelize@6.6.5@sequelize\lib\model.js:2085:27)
+    at async GoodsService.getGoodsList (C:\Users\Spana\Desktop\egg-demo\app\service\goods.js:13:27)
+    at async GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:11:25)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: NaN","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT 0, NaN;"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: NaN","sql":"SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT 0, NaN;"}
+sql: "SELECT `id`, `name`, `code`, `type`, `label`, `status`, `sales_category` AS `salesCategory`, `goods_category` AS `goodsCategory`, `main_image` AS `mainImage`, `description`, `created_time` AS `createdTime`, `updated_time` AS `updatedTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` LIMIT 0, NaN;"
+parameters: undefined
+pid: 20120
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 08:43:42,516 ERROR 7552 nodejs.ClusterClientNoResponseError: client no response in 21659304ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Spana\Desktop\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 7552
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 09:19:45,369 ERROR 7552 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7552
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 09:22:12,706 ERROR 17908 [-/127.0.0.1/-/4ms GET /goods/1] nodejs.TypeError: Cannot read property 'getGoods' of undefined
+    at GoodsController.show (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:19:42)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 17908
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 10:13:09,347 ERROR 19952 [-/127.0.0.1/-/5ms GET /goods?name=%E8%BE%A3] nodejs.ReferenceError: Op is not defined
+    at GoodsService.getGoodsList (C:\Users\Spana\Desktop\egg-demo\app\service\goods.js:17:22)
+    at GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:13:54)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+
+pid: 19952
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 10:21:36,958 ERROR 7552 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7552
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 12:46:45,920 ERROR 7552 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7552
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 13:00:57,688 ERROR 7552 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:178:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "C:\\Users\\Spana\\Desktop\\egg-demo\\app\\module\\order"
+name: "EPERMError"
+pid: 7552
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 13:02:40,297 ERROR 13892 [-/127.0.0.1/-/4ms GET /goods] nodejs.ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+    at new GoodsController (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:5:9)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:191:33)
+
+pid: 13892
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 13:03:15,475 ERROR 20312 [-/127.0.0.1/-/4ms GET /goods] nodejs.ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+    at new GoodsController (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:5:9)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:191:33)
+
+pid: 20312
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 14:02:49,647 ERROR 11480 [-/127.0.0.1/-/5ms GET /goods] nodejs.ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+    at new Core (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:8:17)
+    at new GoodsController (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:3:1)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 11480
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 14:05:07,688 ERROR 20260 [-/127.0.0.1/-/4ms GET /goods] nodejs.TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (C:\Users\Spana\Desktop\egg-demo\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new Core (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:8:9)
+    at new GoodsController (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:3:1)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 20260
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 14:05:46,082 ERROR 10144 [-/127.0.0.1/-/4ms GET /goods] nodejs.TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (C:\Users\Spana\Desktop\egg-demo\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new Core (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:8:9)
+    at new GoodsController (C:\Users\Spana\Desktop\egg-demo\app\controller\goods.js:3:1)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 10144
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 14:13:46,885 ERROR 4264 [-/127.0.0.1/-/4ms GET /goods] nodejs.TypeError: this.getCore is not a function
+    at GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:18:59)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 4264
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 14:17:58,117 ERROR 8888 [-/127.0.0.1/-/5ms GET /goods] nodejs.TypeError: Cannot read property 'findAndCountAll' of undefined
+    at GoodsService.getGoodsList (C:\Users\Spana\Desktop\egg-demo\app\service\goods.js:16:54)
+    at GoodsController.index (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:19:51)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+pid: 8888
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 15:12:00,499 ERROR 2624 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2624
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 15:25:57,234 ERROR 14900 [-/127.0.0.1/-/16ms POST /attribute] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 14900
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 15:27:40,816 ERROR 9104 [-/127.0.0.1/-/15ms POST /attribute] nodejs.TypeError: Cannot read property 'create' of undefined
+    at AttributeController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9104
+hostname: DESKTOP-86SHMDP
+
+2021-08-07 15:38:58,656 ERROR 10552 [-/127.0.0.1/-/16ms POST /attribute] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsService.create (C:\Users\Spana\Desktop\egg-demo\app\service\attribute.js:38:41)
+    at AttributeController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+
+pid: 10552
+hostname: DESKTOP-86SHMDP
+

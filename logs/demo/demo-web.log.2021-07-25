@@ -1,0 +1,107 @@
+2021-07-25 14:04:57,305 WARN 3248 [-/127.0.0.1/-/16ms POST /createFruit] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-07-25 14:04:57,306 WARN 3248 [-/127.0.0.1/-/17ms POST /createFruit] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 3248
+hostname: DESKTOP-86SHMDP
+
+2021-07-25 14:08:26,951 ERROR 15176 [-/127.0.0.1/-/13ms POST /createFruit] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\Spana\Desktop\egg-demo\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\Spana\Desktop\egg-demo\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 15176
+hostname: DESKTOP-86SHMDP
+
+2021-07-25 14:08:34,898 ERROR 15176 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\Spana\Desktop\egg-demo\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\Spana\Desktop\egg-demo\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 15176
+hostname: DESKTOP-86SHMDP
+
+2021-07-25 14:08:35,997 ERROR 15176 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\Spana\Desktop\egg-demo\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\Spana\Desktop\egg-demo\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 15176
+hostname: DESKTOP-86SHMDP
+
+2021-07-25 14:21:09,941 WARN 4888 [-/127.0.0.1/-/11ms POST /createFruit] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-07-25 14:21:09,943 WARN 4888 [-/127.0.0.1/-/12ms POST /createFruit] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 4888
+hostname: DESKTOP-86SHMDP
+
+2021-07-25 14:33:31,834 ERROR 16072 [-/127.0.0.1/-/14ms POST /createFruit] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\Spana\Desktop\egg-demo\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\Spana\Desktop\egg-demo\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 16072
+hostname: DESKTOP-86SHMDP
+
+2021-07-25 16:15:57,599 ERROR 1208 [-/127.0.0.1/-/11ms POST /fruits] nodejs.TypeError: Cannot read property 'push' of undefined
+    at FruitsController.create (C:\Users\Spana\Desktop\egg-demo\app\controller\fruits.js:37:24)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 1208
+hostname: DESKTOP-86SHMDP
+

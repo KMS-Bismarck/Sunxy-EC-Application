@@ -1,0 +1,25 @@
+2021-07-26 11:46:29,517 ERROR 9292 nodejs.ClusterClientNoResponseError: client no response in 38373893ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Spana\Desktop\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9292
+hostname: DESKTOP-86SHMDP
+
+2021-07-26 18:56:27,501 ERROR 9292 nodejs.ClusterClientNoResponseError: client no response in 21837883ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Spana\Desktop\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9292
+hostname: DESKTOP-86SHMDP
+
+2021-07-26 22:59:25,942 ERROR 10408 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10408
+hostname: DESKTOP-86SHMDP
+

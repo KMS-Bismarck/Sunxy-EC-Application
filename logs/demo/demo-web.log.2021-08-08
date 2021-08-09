@@ -1,0 +1,2 @@
+2021-08-08 00:00:55,199 INFO 20088 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `attributes` AS `attributes`;
+2021-08-08 00:00:55,200 INFO 20088 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `code`, `options`, `input_mode` AS `inputMode`, `allow_custom_options` AS `allowCustomOptions`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `attributes` AS `attributes` LIMIT 0, 10;

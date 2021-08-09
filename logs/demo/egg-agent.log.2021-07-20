@@ -1,0 +1,11 @@
+2021-07-20 21:44:36,167 INFO 16392 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Spana\\Desktop\\egg-demo\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-20 21:44:36,174 INFO 16392 [egg:core] dump config after load, 4ms
+2021-07-20 21:44:36,217 INFO 16392 [egg-watcher] Start watching: ["C:\\Users\\Spana\\Desktop\\egg-demo\\app","C:\\Users\\Spana\\Desktop\\egg-demo\\config","C:\\Users\\Spana\\Desktop\\egg-demo\\mocks","C:\\Users\\Spana\\Desktop\\egg-demo\\mocks_proxy","C:\\Users\\Spana\\Desktop\\egg-demo\\app.js"]
+2021-07-20 21:44:36,217 INFO 16392 [egg-watcher] Start watching: "C:\\Users\\Spana\\Desktop\\egg-demo\\app"
+2021-07-20 21:44:36,217 INFO 16392 [egg-watcher] Start watching: "C:\\Users\\Spana\\Desktop\\egg-demo\\config"
+2021-07-20 21:44:36,217 INFO 16392 [egg-watcher] Start watching: "C:\\Users\\Spana\\Desktop\\egg-demo\\mocks"
+2021-07-20 21:44:36,218 INFO 16392 [egg-watcher] Start watching: "C:\\Users\\Spana\\Desktop\\egg-demo\\mocks_proxy"
+2021-07-20 21:44:36,218 INFO 16392 [egg-watcher] Start watching: "C:\\Users\\Spana\\Desktop\\egg-demo\\app.js"
+2021-07-20 21:44:36,218 INFO 16392 [egg-watcher:agent] watcher start success
+2021-07-20 21:44:36,225 INFO 16392 [egg:core] dump config after ready, 5ms
+2021-07-20 21:44:37,019 INFO 16392 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"C:\\Users\\Spana\\Desktop\\egg-demo\\app\\public","stat":{"dev":3735262543,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":3659174698363397,"size":0,"blocks":0,"atimeMs":1626788677019.392,"mtimeMs":1626788677019.392,"ctimeMs":1626788677019.392,"birthtimeMs":1626788677019.392,"atime":"2021-07-20T13:44:37.019Z","mtime":"2021-07-20T13:44:37.019Z","ctime":"2021-07-20T13:44:37.019Z","birthtime":"2021-07-20T13:44:37.019Z"},"remove":false,"isDirectory":true,"isFile":false}

@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.29.4",
+    "egg-cors": "^2.2.3",
+    "egg-sequelize": "^6.0.0",
+    "egg-view-nunjucks": "^2.3.0",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.16.4"
+  }
+}

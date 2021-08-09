@@ -1,0 +1,196 @@
+2021-08-09 11:42:30,972 ERROR 17372 nodejs.ClusterClientNoResponseError: client no response in 39311119ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Spana\Desktop\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17372
+hostname: DESKTOP-86SHMDP
+
+2021-08-09 20:38:13,512 ERROR 17372 nodejs.ClusterClientNoResponseError: client no response in 29742484ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Spana\Desktop\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17372
+hostname: DESKTOP-86SHMDP
+
+2021-08-09 22:53:33,754 ERROR 21464 [-/127.0.0.1/-/18ms POST /goods_category] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsCategoryController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 21464
+hostname: DESKTOP-86SHMDP
+
+2021-08-09 22:55:12,861 ERROR 10100 [-/127.0.0.1/-/17ms POST /goods_category] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsService.create (C:\Users\Spana\Desktop\egg-demo\app\service\goodsCategory.js:38:45)
+    at GoodsCategoryController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+
+pid: 10100
+hostname: DESKTOP-86SHMDP
+
+2021-08-09 22:55:34,431 ERROR 14476 [-/127.0.0.1/-/16ms POST /goods_category] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsService.create (C:\Users\Spana\Desktop\egg-demo\app\service\goodsCategory.js:38:44)
+    at GoodsCategoryController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+
+pid: 14476
+hostname: DESKTOP-86SHMDP
+
+2021-08-09 22:56:01,826 ERROR 21552 [-/127.0.0.1/-/17ms POST /goods_category] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsService.create (C:\Users\Spana\Desktop\egg-demo\app\service\goodsCategory.js:38:44)
+    at GoodsCategoryController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+
+pid: 21552
+hostname: DESKTOP-86SHMDP
+
+2021-08-09 22:57:04,536 ERROR 4800 [-/127.0.0.1/-/25ms POST /goods_category] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsService.create (C:\Users\Spana\Desktop\egg-demo\app\service\goodsCategory.js:39:44)
+    at GoodsCategoryController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+
+pid: 4800
+hostname: DESKTOP-86SHMDP
+
+2021-08-09 22:58:26,596 ERROR 18640 [-/127.0.0.1/-/28ms POST /goods_category] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsService.create (C:\Users\Spana\Desktop\egg-demo\app\service\goodsCategory.js:39:44)
+    at GoodsCategoryController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+
+pid: 18640
+hostname: DESKTOP-86SHMDP
+
+2021-08-09 22:58:48,529 ERROR 3520 [-/127.0.0.1/-/16ms POST /goods_category] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsService.create (C:\Users\Spana\Desktop\egg-demo\app\service\goodsCategory.js:38:44)
+    at GoodsCategoryController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+
+pid: 3520
+hostname: DESKTOP-86SHMDP
+
+2021-08-09 23:00:02,733 ERROR 18276 [-/127.0.0.1/-/18ms POST /goods_category] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsService.create (C:\Users\Spana\Desktop\egg-demo\app\service\goodsCategory.js:38:45)
+    at GoodsCategoryController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+
+pid: 18276
+hostname: DESKTOP-86SHMDP
+
+2021-08-09 23:00:28,613 ERROR 20212 [-/127.0.0.1/-/16ms POST /goods_category] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsService.create (C:\Users\Spana\Desktop\egg-demo\app\service\goodsCategory.js:38:46)
+    at GoodsCategoryController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+
+pid: 20212
+hostname: DESKTOP-86SHMDP
+
+2021-08-09 23:00:38,116 ERROR 18464 [-/127.0.0.1/-/17ms POST /goods_category] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsService.create (C:\Users\Spana\Desktop\egg-demo\app\service\goodsCategory.js:38:45)
+    at GoodsCategoryController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+
+pid: 18464
+hostname: DESKTOP-86SHMDP
+
+2021-08-09 23:02:45,412 ERROR 21196 [-/127.0.0.1/-/16ms POST /goodscategory] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsService.create (C:\Users\Spana\Desktop\egg-demo\app\service\goodscategory.js:38:44)
+    at GoodsCategoryController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+
+pid: 21196
+hostname: DESKTOP-86SHMDP
+
+2021-08-09 23:05:14,391 ERROR 10776 [-/127.0.0.1/-/17ms POST /goods_category] nodejs.TypeError: Cannot read property 'create' of undefined
+    at GoodsService.create (C:\Users\Spana\Desktop\egg-demo\app\service\goodsCategory.js:38:45)
+    at GoodsCategoryController.create (C:\Users\Spana\Desktop\egg-demo\app\core\controller.js:38:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (C:\Users\Spana\Desktop\egg-demo\app\middleware\error.js:4:9)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+
+pid: 10776
+hostname: DESKTOP-86SHMDP
+

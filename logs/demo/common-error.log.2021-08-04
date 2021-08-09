@@ -1,0 +1,33 @@
+2021-07-27 00:01:48,723 ERROR 13048 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13048
+hostname: DESKTOP-86SHMDP
+
+2021-07-27 00:31:39,627 ERROR 15580 [-/127.0.0.1/-/5ms POST /auth/login] nodejs.TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Gzip
+    at Gzip.Writable.write (internal/streams/writable.js:285:13)
+    at Gzip.Writable.end (internal/streams/writable.js:567:10)
+    at gzip (C:\Users\Spana\Desktop\egg-demo\app\middleware\gzip.js:20:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\Spana\Desktop\egg-demo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-session\index.js:41:7)
+code: "ERR_INVALID_ARG_TYPE"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15580
+hostname: DESKTOP-86SHMDP
+
+2021-07-27 18:53:04,363 ERROR 13048 nodejs.ClusterClientNoResponseError: client no response in 64471569ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Spana\Desktop\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 13048
+hostname: DESKTOP-86SHMDP
+

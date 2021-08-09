@@ -1,0 +1,16 @@
+2021-08-08 10:56:25,508 ERROR 17372 nodejs.ClusterClientNoResponseError: client no response in 31708736ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Spana\Desktop\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17372
+hostname: DESKTOP-86SHMDP
+
+2021-08-08 21:29:39,576 ERROR 17372 nodejs.ClusterClientNoResponseError: client no response in 19993662ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Spana\Desktop\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17372
+hostname: DESKTOP-86SHMDP
+

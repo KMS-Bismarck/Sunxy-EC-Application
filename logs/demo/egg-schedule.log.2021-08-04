@@ -1,0 +1,75 @@
+2021-07-27 00:01:47,729 INFO 4192 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-27 00:01:47,729 INFO 4192 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-27 00:01:47,729 INFO 4192 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-27 00:01:48,786 INFO 6000 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-27 00:01:48,786 INFO 6000 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-27 00:01:48,786 INFO 6000 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-27 00:12:14,725 INFO 10408 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-27 00:12:14,725 INFO 10408 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-27 00:12:14,725 INFO 10408 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-27 00:15:59,403 INFO 8236 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-27 00:15:59,403 INFO 8236 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-27 00:15:59,403 INFO 8236 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-27 00:31:31,948 INFO 15580 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-27 00:31:31,948 INFO 15580 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-27 00:31:31,948 INFO 15580 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-27 00:32:31,894 INFO 8504 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-27 00:32:31,894 INFO 8504 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-27 00:32:31,894 INFO 8504 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-27 18:53:04,361 INFO 13048 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 34615684ms at 2021-07-28 04:30:00.045
+2021-07-27 18:53:04,347 INFO 8504 [Job#162738318431111230204083305001] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2021-07-27 18:53:04,384 INFO 8504 [Job#162738318431111230204083305001] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 35ms. 
+2021-07-27 22:17:13,416 INFO 13404 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-27 22:17:13,417 INFO 13404 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-27 22:17:13,417 INFO 13404 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-27 22:17:13,555 INFO 7760 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 22366447ms at 2021-07-28 04:30:00.002
+2021-07-27 22:17:13,556 INFO 7760 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 6166445ms at 2021-07-28 00:00:00.001
+2021-07-27 22:17:13,556 INFO 7760 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 6167444ms at 2021-07-28 00:00:01.000
+2021-07-27 22:17:14,456 INFO 1460 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-27 22:17:14,456 INFO 1460 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-27 22:17:14,456 INFO 1460 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-27 22:18:12,849 INFO 11460 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-27 22:18:12,849 INFO 11460 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-27 22:18:12,849 INFO 11460 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-27 22:20:28,871 INFO 16212 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-27 22:20:28,871 INFO 16212 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-27 22:20:28,871 INFO 16212 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-27 22:26:24,500 INFO 9736 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-27 22:26:24,500 INFO 9736 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-27 22:26:24,500 INFO 9736 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-04 21:39:19,464 INFO 1728 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 24640538ms at 2021-08-05 04:30:00.002
+2021-08-04 21:39:19,465 INFO 1728 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 8440536ms at 2021-08-05 00:00:00.001
+2021-08-04 21:39:19,465 INFO 1728 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 8441535ms at 2021-08-05 00:00:01.000
+2021-08-04 21:39:19,337 INFO 5000 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-04 21:39:19,337 INFO 5000 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-04 21:39:19,337 INFO 5000 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-04 21:44:59,131 INFO 8048 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-04 21:44:59,131 INFO 8048 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-04 21:44:59,131 INFO 8048 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-04 23:33:14,179 INFO 1164 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-04 23:33:14,179 INFO 1164 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-04 23:33:14,179 INFO 1164 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-04 23:33:14,776 INFO 2636 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 17805227ms at 2021-08-05 04:30:00.003
+2021-08-04 23:33:14,776 INFO 2636 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 1605224ms at 2021-08-05 00:00:00.000
+2021-08-04 23:33:14,776 INFO 2636 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 1606224ms at 2021-08-05 00:00:01.000
+2021-08-04 23:35:20,614 INFO 3620 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-04 23:35:20,614 INFO 3620 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-04 23:35:20,614 INFO 3620 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-04 23:35:21,236 INFO 5612 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 17678767ms at 2021-08-05 04:30:00.003
+2021-08-04 23:35:21,236 INFO 5612 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 1478764ms at 2021-08-05 00:00:00.000
+2021-08-04 23:35:21,236 INFO 5612 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 1479764ms at 2021-08-05 00:00:01.000
+2021-08-04 23:38:29,415 INFO 9016 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-04 23:38:29,415 INFO 9016 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-04 23:38:29,415 INFO 9016 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-04 23:41:32,894 INFO 8460 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-04 23:41:32,894 INFO 8460 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-04 23:41:32,894 INFO 8460 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-04 23:41:33,537 INFO 16876 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 17306465ms at 2021-08-05 04:30:00.002
+2021-08-04 23:41:33,537 INFO 16876 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 1106463ms at 2021-08-05 00:00:00.000
+2021-08-04 23:41:33,537 INFO 16876 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 1107463ms at 2021-08-05 00:00:01.000
+2021-08-05 00:00:00,004 INFO 16876 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399998ms at 2021-08-06 00:00:00.002
+2021-08-05 00:00:00,003 INFO 8460 [Job#162809280000118326444614381001] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2021-08-05 00:00:00,009 INFO 8460 [Job#162809280000118326444614381001] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 6ms. 
+2021-08-05 00:00:01,003 INFO 16876 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86399999ms at 2021-08-06 00:00:01.002
+2021-08-05 00:00:01,002 INFO 8460 [Job#162809280100118326454609219001] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2021-08-05 00:00:01,009 INFO 8460 [Job#162809280100118326454609219001] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 7ms. 

@@ -1,0 +1,42 @@
+2021-07-24 15:13:57,165 ERROR 15708 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15708
+hostname: DESKTOP-86SHMDP
+
+2021-07-24 16:46:43,083 ERROR 15708 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15708
+hostname: DESKTOP-86SHMDP
+
+2021-07-24 19:23:43,659 ERROR 6660 [-/127.0.0.1/-/5ms GET /fruits/213] nodejs.ReferenceError: index is not defined
+    at FruitsController.getId (C:\Users\Spana\Desktop\egg-demo\app\controller\fruits.js:9:25)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Spana\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Spana\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 6660
+hostname: DESKTOP-86SHMDP
+
+2021-07-24 22:19:24,225 ERROR 15708 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15708
+hostname: DESKTOP-86SHMDP
+

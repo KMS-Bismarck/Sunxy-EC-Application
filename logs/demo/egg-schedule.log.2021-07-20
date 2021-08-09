@@ -1,0 +1,12 @@
+2021-07-20 21:44:37,052 INFO 16392 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 24322950ms at 2021-07-21 04:30:00.002
+2021-07-20 21:44:37,053 INFO 16392 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 8122948ms at 2021-07-21 00:00:00.001
+2021-07-20 21:44:37,053 INFO 16392 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 8123947ms at 2021-07-21 00:00:01.000
+2021-07-20 21:44:36,931 INFO 2320 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-20 21:44:36,931 INFO 2320 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-20 21:44:36,931 INFO 2320 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-21 00:00:00,007 INFO 2320 [Job#16267968000065366306248454001] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2021-07-21 00:00:00,010 INFO 2320 [Job#16267968000065366306248454001] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 2ms. 
+2021-07-21 00:00:00,009 INFO 16392 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399994ms at 2021-07-22 00:00:00.003
+2021-07-21 00:00:01,006 INFO 2320 [Job#16267968010055366316245006001] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2021-07-21 00:00:01,013 INFO 2320 [Job#16267968010055366316245006001] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 7ms. 
+2021-07-21 00:00:01,008 INFO 16392 [Timer] C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86399994ms at 2021-07-22 00:00:01.002

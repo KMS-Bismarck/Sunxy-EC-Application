@@ -1,0 +1,31 @@
+2021-08-06 00:00:00,389 INFO 12992 [egg-logrotator] agent logger reload: got log-reload message
+2021-08-06 09:20:15,034 ERROR 12992 nodejs.ClusterClientNoResponseError: client no response in 30329475ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Spana\Desktop\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 12992
+hostname: DESKTOP-86SHMDP
+
+2021-08-06 12:07:04,509 ERROR 12992 nodejs.ClusterClientNoResponseError: client no response in 10009460ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Spana\Desktop\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 12992
+hostname: DESKTOP-86SHMDP
+
+2021-08-06 12:10:17,232 INFO 12992 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Spana\\Desktop\\egg-demo\\app\\controller","stat":{"dev":3735262543,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":11258999068428508,"size":0,"blocks":0,"atimeMs":1628223017227.6504,"mtimeMs":1627308450864.8218,"ctimeMs":1627308450864.8218,"birthtimeMs":1626783882992.3262,"atime":"2021-08-06T04:10:17.228Z","mtime":"2021-07-26T14:07:30.865Z","ctime":"2021-07-26T14:07:30.865Z","birthtime":"2021-07-20T12:24:42.992Z"},"remove":false,"isDirectory":true,"isFile":false}
+2021-08-06 12:10:17,233 INFO 12992 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Spana\\Desktop\\egg-demo\\app\\middleware","stat":{"dev":3735262543,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":7881299347904218,"size":0,"blocks":0,"atimeMs":1628223017228.651,"mtimeMs":1628084206009.9602,"ctimeMs":1628084206009.9602,"birthtimeMs":1627314224862.8318,"atime":"2021-08-06T04:10:17.229Z","mtime":"2021-08-04T13:36:46.010Z","ctime":"2021-08-04T13:36:46.010Z","birthtime":"2021-07-26T15:43:44.863Z"},"remove":false,"isDirectory":true,"isFile":false}
+2021-08-06 12:10:17,233 INFO 12992 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Spana\\Desktop\\egg-demo\\app\\public","stat":{"dev":3735262543,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":11540474045148062,"size":0,"blocks":0,"atimeMs":1628223017228.651,"mtimeMs":1628178322170.088,"ctimeMs":1628178322170.088,"birthtimeMs":1628178322170.088,"atime":"2021-08-06T04:10:17.229Z","mtime":"2021-08-05T15:45:22.170Z","ctime":"2021-08-05T15:45:22.170Z","birthtime":"2021-08-05T15:45:22.170Z"},"remove":false,"isDirectory":true,"isFile":false}
+2021-08-06 12:10:17,233 INFO 12992 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Spana\\Desktop\\egg-demo\\app\\model","stat":{"dev":3735262543,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":29273397577912040,"size":0,"blocks":0,"atimeMs":1628223017228.651,"mtimeMs":1628091508239.8672,"ctimeMs":1628091508239.8672,"birthtimeMs":1628090781634.0608,"atime":"2021-08-06T04:10:17.229Z","mtime":"2021-08-04T15:38:28.240Z","ctime":"2021-08-04T15:38:28.240Z","birthtime":"2021-08-04T15:26:21.634Z"},"remove":false,"isDirectory":true,"isFile":false}
+2021-08-06 12:10:17,234 INFO 12992 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Spana\\Desktop\\egg-demo\\app\\view","stat":{"dev":3735262543,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":3940649674366686,"size":0,"blocks":0,"atimeMs":1628223017228.651,"mtimeMs":1627202941828.709,"ctimeMs":1627202941828.709,"birthtimeMs":1627202934483.946,"atime":"2021-08-06T04:10:17.229Z","mtime":"2021-07-25T08:49:01.829Z","ctime":"2021-07-25T08:49:01.829Z","birthtime":"2021-07-25T08:48:54.484Z"},"remove":false,"isDirectory":true,"isFile":false}
+2021-08-06 12:10:17,234 INFO 12992 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Spana\\Desktop\\egg-demo\\app\\service","stat":{"dev":3735262543,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":2251799815132662,"size":0,"blocks":0,"atimeMs":1628223017228.651,"mtimeMs":1628175645800.5957,"ctimeMs":1628175645800.5957,"birthtimeMs":1628175549980.7747,"atime":"2021-08-06T04:10:17.229Z","mtime":"2021-08-05T15:00:45.801Z","ctime":"2021-08-05T15:00:45.801Z","birthtime":"2021-08-05T14:59:09.981Z"},"remove":false,"isDirectory":true,"isFile":false}
+2021-08-06 21:24:08,762 ERROR 12992 nodejs.ClusterClientNoResponseError: client no response in 31044174ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Spana\Desktop\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 12992
+hostname: DESKTOP-86SHMDP
+
