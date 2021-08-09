@@ -5,7 +5,7 @@ module.exports = app => {
     } = app.Sequelize
 
 
-    const sales_category = app.model.define('sales_category', {
+    const goods_category = app.model.define('goods_category', {
         name: STRING,
         extend: STRING,
         parent: STRING,
@@ -14,5 +14,5 @@ module.exports = app => {
         useBindGoods: BOOLEAN
     })
 
-    return sales_category
+    return goods_category
 }
