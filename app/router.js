@@ -12,4 +12,5 @@ module.exports = app => {
     router.resources('attribute', '/attribute', controller.attribute);
     router.resources('goods_category', '/goods_category', controller.goodsCategory);
     router.resources('sales_category', '/sales_category', controller.salesCategory);
+    router.resources('goods_label', '/goods_label', controller.goodsLabel);
 };

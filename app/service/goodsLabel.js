@@ -3,7 +3,7 @@ const {
     Op
 } = require("sequelize");
 
-class SalesService extends Service {
+class GoodsLabelService extends Service {
     async index(page = 0, size = 10, query = {}) {
         let PAGE = 0
         let SIZE = 10
@@ -13,7 +13,7 @@ class SalesService extends Service {
         } catch (error) {
 
         }
-        const list = await this.app.model.SalesCategory.findAndCountAll({
+        const list = await this.app.model.GoodsLabel.findAndCountAll({
             where: {
                 ...query
             },
@@ -24,7 +24,7 @@ class SalesService extends Service {
     }
 
     async show(id = "") {
-        const data = await this.app.model.SalesCategory.findOne({
+        const data = await this.app.model.GoodsLabel.findOne({
             where: {
                 id: id
             }
@@ -35,9 +35,9 @@ class SalesService extends Service {
     async create(model, body) {
         const data = {}
         model.map(attr => data[attr] = body[attr] || null)
-        await this.app.model.SalesCategory.create(data)
+        await this.app.model.GoodsLabel.create(data)
         return data
     }
 }
 
-module.exports = SalesService
+module.exports = GoodsLabelService
