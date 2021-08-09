@@ -1,16 +1,18 @@
 module.exports = app => {
     const {
-        STRING
+        STRING,
+        BOOLEAN
     } = app.Sequelize
 
 
-    const goods_category = app.model.define('goods_category', {
+    const sales_category = app.model.define('sales_category', {
         name: STRING,
-        attributes: STRING,
         extend: STRING,
         parent: STRING,
-        priority: STRING
+        priority: STRING,
+        bindGoods: STRING,
+        useBindGoods: BOOLEAN
     })
 
-    return goods_category
+    return sales_category
 }
