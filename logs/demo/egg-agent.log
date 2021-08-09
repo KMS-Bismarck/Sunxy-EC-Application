@@ -324,3 +324,14 @@ hostname: DESKTOP-86SHMDP
 2021-08-09 23:32:08,607 INFO 9604 [egg-watcher] Start watching: "C:\\Users\\Spana\\Desktop\\Sunxy\\Sunxy-EC-Application\\app.js"
 2021-08-09 23:32:08,608 INFO 9604 [egg-watcher:agent] watcher start success
 2021-08-09 23:32:08,649 INFO 9604 [egg:core] dump config after ready, 5ms
+2021-08-09 23:34:33,365 INFO 20392 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-08-09 23:34:32,907 INFO 20392 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Spana\\Desktop\\Sunxy\\Sunxy-EC-Application\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-08-09 23:34:33,270 INFO 20392 [egg:core] dump config after load, 4ms
+2021-08-09 23:34:33,330 INFO 20392 [egg-watcher] Start watching: ["C:\\Users\\Spana\\Desktop\\Sunxy\\Sunxy-EC-Application\\app","C:\\Users\\Spana\\Desktop\\Sunxy\\Sunxy-EC-Application\\config","C:\\Users\\Spana\\Desktop\\Sunxy\\Sunxy-EC-Application\\mocks","C:\\Users\\Spana\\Desktop\\Sunxy\\Sunxy-EC-Application\\mocks_proxy","C:\\Users\\Spana\\Desktop\\Sunxy\\Sunxy-EC-Application\\app.js"]
+2021-08-09 23:34:33,330 INFO 20392 [egg-watcher] Start watching: "C:\\Users\\Spana\\Desktop\\Sunxy\\Sunxy-EC-Application\\app"
+2021-08-09 23:34:33,330 INFO 20392 [egg-watcher] Start watching: "C:\\Users\\Spana\\Desktop\\Sunxy\\Sunxy-EC-Application\\config"
+2021-08-09 23:34:33,331 INFO 20392 [egg-watcher] Start watching: "C:\\Users\\Spana\\Desktop\\Sunxy\\Sunxy-EC-Application\\mocks"
+2021-08-09 23:34:33,331 INFO 20392 [egg-watcher] Start watching: "C:\\Users\\Spana\\Desktop\\Sunxy\\Sunxy-EC-Application\\mocks_proxy"
+2021-08-09 23:34:33,331 INFO 20392 [egg-watcher] Start watching: "C:\\Users\\Spana\\Desktop\\Sunxy\\Sunxy-EC-Application\\app.js"
+2021-08-09 23:34:33,332 INFO 20392 [egg-watcher:agent] watcher start success
+2021-08-09 23:34:33,373 INFO 20392 [egg:core] dump config after ready, 5ms
