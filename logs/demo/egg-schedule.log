@@ -133,3 +133,9 @@
 2021-08-09 23:05:42,845 INFO 18904 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2021-08-09 23:05:42,845 INFO 18904 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
 2021-08-09 23:05:42,845 INFO 18904 [egg-schedule]: register schedule C:\Users\Spana\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-09 23:32:09,662 INFO 22068 [egg-schedule]: register schedule C:\Users\Spana\Desktop\Sunxy\Sunxy-EC-Application\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-09 23:32:09,662 INFO 22068 [egg-schedule]: register schedule C:\Users\Spana\Desktop\Sunxy\Sunxy-EC-Application\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-09 23:32:09,662 INFO 22068 [egg-schedule]: register schedule C:\Users\Spana\Desktop\Sunxy\Sunxy-EC-Application\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-09 23:32:10,211 INFO 9604 [Timer] C:\Users\Spana\Desktop\Sunxy\Sunxy-EC-Application\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 17869791ms at 2021-08-10 04:30:00.002
+2021-08-09 23:32:10,211 INFO 9604 [Timer] C:\Users\Spana\Desktop\Sunxy\Sunxy-EC-Application\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 1669789ms at 2021-08-10 00:00:00.000
+2021-08-09 23:32:10,211 INFO 9604 [Timer] C:\Users\Spana\Desktop\Sunxy\Sunxy-EC-Application\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 1670789ms at 2021-08-10 00:00:01.000

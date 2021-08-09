@@ -498,3 +498,16 @@
 2021-08-09 23:05:43,364 INFO 18904 [egg:core] dump config after load, 5ms
 2021-08-09 23:05:43,406 INFO 18904 [egg-watcher:application] watcher start success
 2021-08-09 23:05:43,439 INFO 18904 [egg:core] dump config after ready, 6ms
+2021-08-09 23:32:09,630 INFO 22068 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Spana\\Desktop\\Sunxy\\Sunxy-EC-Application\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-09 23:32:09,663 INFO 22068 [egg-multipart] stream mode enable
+2021-08-09 23:32:10,106 INFO 22068 [egg-static] starting static serve /public/ -> C:\Users\Spana\Desktop\Sunxy\Sunxy-EC-Application\app\public
+2021-08-09 23:32:10,108 INFO 22068 [egg-security] use methodnoallow middleware
+2021-08-09 23:32:10,109 INFO 22068 [egg-security] use noopen middleware
+2021-08-09 23:32:10,110 INFO 22068 [egg-security] use nosniff middleware
+2021-08-09 23:32:10,111 INFO 22068 [egg-security] use xssProtection middleware
+2021-08-09 23:32:10,112 INFO 22068 [egg-security] use xframe middleware
+2021-08-09 23:32:10,113 INFO 22068 [egg-security] use dta middleware
+2021-08-09 23:32:10,113 INFO 22068 [egg-security] compose 6 middlewares into one security middleware
+2021-08-09 23:32:10,127 INFO 22068 [egg:core] dump config after load, 5ms
+2021-08-09 23:32:10,173 INFO 22068 [egg-watcher:application] watcher start success
+2021-08-09 23:32:10,206 INFO 22068 [egg:core] dump config after ready, 6ms
